@@ -78,6 +78,8 @@ public class SecurityAndUriConfig extends WebSecurityConfigurerAdapter {
 				"/branches/(.*)/actions/.*",
 				"/branches/(.*)",
 				"/rebuild/(.*)",
+				"/browser/(.*)/validate/concept",
+				"/browser/(.*)/validate/concepts",
 				"/browser/(.*)/concepts.*",
 				"/browser/(.*)/descriptions.*",
 				"/browser/(.*)/members.*",
@@ -93,7 +95,6 @@ public class SecurityAndUriConfig extends WebSecurityConfigurerAdapter {
 				"/(.*)/authoring-stats.*",
 				"/mrcm/(.*)/domain-attributes",
 				"/mrcm/(.*)/attribute-values.*",
-				"/browser/(.*)/validate/concept",
 				"/admin/(.*)/actions/.*"
 		));
 	}
